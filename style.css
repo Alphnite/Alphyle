@@ -150,7 +150,7 @@ a:any-link{
 
 
 /*Celulares de 560 de altura*/
-@media(max-height: 560px){
+@media(max-width: 360px){
     .header-content{
         
         padding-left: 310px;
@@ -212,7 +212,7 @@ a:any-link{
 
 
 /*Celulares de 640 de altura*/
-@media(max-height: 640px){
+@media(max-width: 411px){
     .header-content{
         
         padding-left: 350px;
@@ -286,7 +286,7 @@ a:any-link{
     }
 }
 
-/*Celulares de 731 de altura*/
+/*Celulares de 731 de altura
 @media(max-height: 731px){
     .header-content{
         
@@ -433,3 +433,4 @@ a:any-link{
         margin-bottom: 50px;
     }
 }*/
+
