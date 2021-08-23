@@ -361,7 +361,7 @@ a:any-link{
 
 
 
-/*Celulares de 823 de altura*/
+/*Celulares de 823 de altura
 @media(max-height: 823px){
     .header-content{
         
@@ -432,4 +432,4 @@ a:any-link{
     .Copyright{
         margin-bottom: 50px;
     }
-}
+}*/
