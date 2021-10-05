@@ -16,6 +16,7 @@
     display: block;
 }*/
 
+
 body{
     background: rgba(0,0,0,0.9);
     margin: 0;
@@ -29,27 +30,21 @@ body{
 }
 
 
+
 .header-content{
     background: rgb(28, 28, 28);
-    padding-top: 10px;
-    padding-left: 30%;
-    padding-right: 30%;
+    overflow: hidden;
+    padding: 20px 10px;
+}
 
-    z-index: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    max-width: 40%;
-
-    width: 50%;
-    height: auto;
-    
-    
+.header_image{
+    display: block;
     margin-left: auto;
     margin-right: auto;
-
+    width: 20%;
 }
+
+
 
 .Alphyle_objetive_explain{
     background: rgb(28, 28, 28);
@@ -148,139 +143,3 @@ a:any-link{
     color: white;
 }
 
-
-/*Celulares de 560 de altura*/
-@media(max-width: 360px){
-    .header-content{
-        
-        padding-left: 310px;
-        padding-right: 310px;
-    }
-
-    .Alphyle_objetive_explain{
-        -webkit-box-sizing: border-box; 
-        -moz-box-sizing: border-box;    
-        box-sizing: border-box;      
-       }
-
-    .Alphyle_objetive_explain{
-        padding-top: 25px;
-        width: 840px;
-    }
-
-    .Games-text-c{
-        margin-left: 170px;
-
-        width: 500px;
-        height: auto;
-    }
-    
-    .UDD_Image{
-        margin-left: 165px;
-        width: 90%;
-        height: auto;
-    }
-
-    .UDD_Explain{
-        margin-left: 25px;
-        margin-right: 21px;
-
-        width: 700px;
-        height: auto;
-    }
-
-    .GooglePlayBadge{
-        margin-right: 102px;
-    }
-
-    .Want_more_div{
-        margin-left: 165px;
-
-        width: 500px;
-        height: auto;
-    }
-    .footer{
-        margin-left: 0px;
-
-        padding-right: 165px;
-        padding-left: 165px;
-
-        width: 500px;
-        height: auto;
-    }
-}
-
-/*Celulares de 640 de altura*/
-@media(max-width: 470px){
-    .header-content{
-        
-        padding-left: 350px;
-        padding-right: 350px;
-    }
-
-    .Alphyle_objetive_explain{
-        -webkit-box-sizing: border-box; 
-        -moz-box-sizing: border-box;    
-        box-sizing: border-box;      
-       }
-
-    .Alphyle_objetive_explain{
-        padding-top: 25px;
-
-
-        padding-left: 50%;
-        padding-right: 50%;
-
-        width: 870px;
-        height: auto;
-    }
-
-    .Games-text-c{
-        margin-left: 170px;
-
-        width: 500px;
-        height: auto;
-    }
-    
-    .UDD_Image{
-        margin-left: 235px;
-        width: 100%;
-        height: auto;
-    }
-
-    .UDD_Explain{
-        margin-left: 25px;
-        margin-right: 21px;
-
-        width: 700px;
-        height: auto;
-    }
-
-    .GooglePlayBadge{
-        margin-right: 72px;
-
-        width: 100px;
-        height: auto;
-    }
-
-    .Want_more_div{
-        margin-left: 165px;
-
-        width: 500px;
-        height: auto;
-    }
-    .footer{
-        margin-left: 0px;
-
-        padding-right: 50%;
-        padding-left: 50%;
-
-        padding-bottom: 100px;
-
-        width: 500px;
-        height: auto;
-    }
-    .Copyright{
-        margin-bottom: 50px;
-    }
-}

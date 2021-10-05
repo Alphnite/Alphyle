@@ -1,0 +1,134 @@
+
+.all{
+    background-image: linear-gradient(rgb(255, 106, 106), rgb(255, 179, 80));
+    background-size: 100%;
+}
+
+body{
+   background: rgba(0, 0, 0, 0);
+   margin: 50px;
+   color: #000000;
+   font-family: 'Nunito', sans-serif;
+
+   background-size: auto;
+   background-position-y: -700px;
+   background-repeat: no-repeat;
+
+   font-weight: normal;
+   text-align: center;
+   font-size: 18px;
+}
+
+.tab {
+    background-color: rgb(0, 0, 0);
+    
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+    padding: 10px 40px;
+    /*width: 14%;
+    height: 5px;*/
+
+    width: 109%;
+    height: 100px;
+
+    margin-inline: -5%;
+
+    margin-top: -5%;
+    
+
+  }
+
+.tab_img{
+    image-resolution: 20%;
+}
+
+.tab:hover{
+    /*background-color: rgba(0, 0, 0, 0.138)*/
+    background-image: linear-gradient(to bottom right, rgb(255, 106, 106), rgb(255, 179, 80));
+  }
+
+
+.image1{
+    float: left;
+  }
+
+.image2{
+    float: left;
+}
+
+.image{
+    width: 250px;
+    height: auto;
+}
+
+.explain1{
+    margin-top: 50px;
+}
+
+.explain2{
+    margin-top: 200px;
+}
+
+.want_to_play{
+    margin-top: 100px;
+
+}
+
+
+
+.PP{
+}
+
+.TaC{
+}
+
+
+
+/*Google Play Badge*/
+.GooglePlayBadgeDIV{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.GooglePlayBadge{
+
+    max-width: 50%;
+    height: 50%;
+}
+
+
+/*.yt video{
+    position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden; 
+}
+
+/*Footer & Copyright notice*/
+.footer{
+    bottom: 0;
+    background: rgba(0,0,0,1);
+    padding-bottom: 25px;
+    padding-top: 15px;
+    margin: auto;
+    margin-left: auto;
+
+    margin-bottom: -5%;
+
+    margin-inline: -4%;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.Copyright{
+    font-size: 15px;
+    font-weight: lighter;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    
+
+}
