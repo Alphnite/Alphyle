@@ -4,7 +4,7 @@
 }
 
 .all{
-     background-image: linear-gradient(rgb(255, 106, 106), rgb(255, 179, 80));
+     background-image: linear-gradient(rgb(106, 233, 255), rgb(52, 16, 255));
      background-size: 100%;
 }
 
@@ -26,6 +26,11 @@ body{
 }
 
 .Tema{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.Sub_Titulo{
     font-weight: bold;
     font-size: 25px;
 }
@@ -113,7 +118,7 @@ body{
     align-items: center;
     justify-content: center;
 
-    margin-top: 40px;
+
 
 }
 
@@ -124,7 +129,6 @@ body{
     
 
 }
-
 
 /*
 @media (max-width: 360px){
@@ -243,3 +247,5 @@ body{
     }
 
 }
+*/
+
